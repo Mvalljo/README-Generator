@@ -25,6 +25,12 @@ const questions = [
         name: 'usage',
     },
     {
+        type: 'list',
+        message: 'Choose a license for your project',
+        choices: ['Apache','GNU-General-Public-v3','MIT'],
+        name: 'license',
+    },
+    {
         type: 'input',
         message: 'What are the contribution guidelines?',
         name: 'contributing',
@@ -39,7 +45,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Success!')
+        err ? console.log(err) : console.log('Successfully wrote README.md file')
     );
 }
 
