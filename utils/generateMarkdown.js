@@ -49,25 +49,25 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 <img src="${renderLicenseBadge(data.license)}" alt="license badge">
-${renderLicenseLink(data.license)}
-## Description
-${data.description}
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-## Installation
-${data.installation}
-## Usage
-${data.usage}
-## Credits
-## License
-${renderLicenseSection(data.license)}
-## Features
-## How to Contribute
-${data.contribution}
-## Tests
+${renderLicenseLink(data.license)}<br />
+## Description<br />
+${data.description}<br />
+## Table of Contents<br />
+- [Installation](#installation)<br />
+- [Usage](#usage)<br />
+- [Credits](#credits)<br />
+- [License](#license)<br />
+## Installation<br />
+${data.installation}<br />
+## Usage<br />
+${data.usage}<br />
+## Credits<br />
+## License<br />
+${renderLicenseSection(data.license)}<br />
+## Features<br />
+## How to Contribute<br />
+${data.contribution}<br />
+## Tests<br />
 ${data.tests}
 `;
 }
