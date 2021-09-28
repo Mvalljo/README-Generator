@@ -1,5 +1,5 @@
 # test
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/)
+[![License]()](http://www.apache.org/licenses/)
 ## Description
 test
 ## Table of Contents
@@ -13,7 +13,7 @@ test
 test
 ## Credits
 ## License
-./apacheLicense
+This appplication is covered under the Apache License 2.0.
 ## Features
 ## How to Contribute
 undefined

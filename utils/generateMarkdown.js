@@ -17,11 +17,11 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   switch (license) {
-    case "Apache":
+    case "Apache License 2.0":
       return "http://www.apache.org/licenses/";
-    case "GNU-General-Public-v3":
+    case "GNU General Public License v3.0":
       return "https://www.gnu.org/licenses/";
-    case "MIT":
+    case "MIT License":
       return "https://spdx.org/licenses/MIT.html";
     default:
       return "";
@@ -32,21 +32,16 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  switch (license) {
-    case "Apache":
-      return "./apacheLicense"
-    case "GNU-General-Public":
-
-      break;
-    case "MIT":
-      break;
-    default:
-      return "";
+  if (!license) {
+    return "";
+  } else {
+    return license;
   }
+  
 }
 
 // TODO: Create a function to generate markdown for README
- function generateMarkdown(data) {
+function generateMarkdown(data) {
   return `# ${data.title}
 [![License](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
 ## Description
@@ -62,13 +57,13 @@ ${data.installation}
 ${data.usage}
 ## Credits
 ## License
-${renderLicenseSection(data.license)}
+This appplication is covered under the ${renderLicenseSection(data.license)}.
 ## Features
 ## How to Contribute
 ${data.contribution}
 ## Tests
 ${data.tests}
 `;
- }
+}
 
 module.exports = generateMarkdown;
