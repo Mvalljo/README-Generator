@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://spdx.org/licenses/MIT.html)
-# Test
+# README Generator
 ## Description
-test
+Create a professional README for a new project with a command-line application.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
