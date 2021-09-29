@@ -2,11 +2,11 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   switch (license) {
-    case "Apache":
+    case "Apache License 2.0":
       return "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
-    case "GNU-General-Public":
+    case "GNU General Public License v3.0":
       return "https://img.shields.io/badge/License-GPLv3-blue.svg";
-    case "MIT":
+    case "MIT License":
       return "https://img.shields.io/badge/License-MIT-yellow.svg";
     default:
       return "";
@@ -55,14 +55,15 @@ ${data.description}
 ${data.installation}
 ## Usage
 ${data.usage}
-## Credits
 ## License
 This appplication is covered under the ${renderLicenseSection(data.license)}.
-## Features
 ## How to Contribute
 ${data.contribution}
 ## Tests
 ${data.tests}
+## Questions
+Github: [${data.github}](https://github.com/${data.github})
+Email: ${data.email}
 `;
 }
 

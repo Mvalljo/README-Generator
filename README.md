@@ -1,5 +1,5 @@
 # test
-[![License]()](http://www.apache.org/licenses/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://spdx.org/licenses/MIT.html)
 ## Description
 test
 ## Table of Contents
@@ -11,11 +11,12 @@ test
 test
 ## Usage
 test
-## Credits
 ## License
-This appplication is covered under the Apache License 2.0.
-## Features
+This appplication is covered under the MIT License.
 ## How to Contribute
-undefined
+test
 ## Tests
 test
+## Questions
+Github: [Mvalljo](https://github.com/Mvalljo)
+Email: maria.vallejo29@yahoo.com

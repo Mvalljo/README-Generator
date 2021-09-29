@@ -33,12 +33,22 @@ const questions = [
     {
         type: 'input',
         message: 'What are the contribution guidelines?',
-        name: 'contributing',
+        name: 'contribution',
     },
     {
         type: 'input',
         message: 'What are the test instructions?',
         name: 'tests',
+    },
+    {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email',
     },
 ];
 
