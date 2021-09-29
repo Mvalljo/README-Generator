@@ -16,7 +16,7 @@ After invoking applicaiton user is then presented with a series of questions to 
 ## License
 This appplication is covered under the MIT License.
 ## Contribution
-If there are any suggestions or comments to make to this application contact me through email or github profile.
+If there are any suggestions or comments to make to this application contact me through email or github.
 ## Tests
 None.
 ## Questions
