@@ -10,15 +10,15 @@ Create a professional README for a new project with a command-line application.
 - [Tests](#tests)
 - [Quesitons](#questions)
 ## Installation
-test
+Clone the code then invoke the application by runnig node index.js in the command line.
 ## Usage
-test
+After invoking applicaiton user is then presented with a series of questions to get information about users application. When all questions are answered README file is generated.
 ## License
 This appplication is covered under the MIT License.
 ## Contribution
-test
+If there are any suggestions or comments to make to this application contact me through email or github profile.
 ## Tests
-test
+None.
 ## Questions
 Github: [mvalljo](https://github.com/mvalljo)
 Email: maria.vallejo29@yahoo.com
