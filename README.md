@@ -13,6 +13,8 @@ Create a professional README for a new project with a command-line application.
 Clone the code then invoke the application by runnig node index.js in the command line.
 ## Usage
 After invoking applicaiton user is then presented with a series of questions to get information about users application. When all questions are answered README file is generated.
+
+Walkthorugh of application = https://youtu.be/OgJrkYWjJL4
 ## License
 This appplication is covered under the MIT License.
 ## Contribution
